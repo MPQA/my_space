@@ -20,14 +20,14 @@ print (line)
 
 #string # str
 name = "Misha"
-fio = "Misha Past Wladinir"
+fio = "Pastovenskyi Wladinirovich"
 print (name, fio)
 print (line)
 
 #bool
-status = True
-status = False
-print (status)
+status1 = True
+status2 = False
+print (status1, status2)
 print (line)
 
 #comlex
@@ -43,11 +43,12 @@ print (line)
 print (type (a))
 print (type (vodka))
 print (type (fio))
-print (type (status))
+print (type (status1))
 print (type (a1))
 print (type (x))
+print (line)
 
-x=y=z=0
+x=y=z=888
 print (x)
 print (y)
 print (z)
@@ -59,18 +60,17 @@ q3 = 44
 q4 = 2.5
 
 w = q1 * q4
-w1 = q1 / q4
-print ('w\n',w1)
+w1 = q3 / q1
+print (w,'\n',w1)
 print (line)
 
-#/n новая строка
+#\n новая строка
 text = 'The GLOCK G18C -\ncomes with compensator slots in the barrel and slide.'
 print (text)
 print (line)
 
-print(f"Hello\nWorld!")
-print (line)
-print(f"Hello\rWorld!")
+
+print("Hello\rWorld!")
 print (line)
 
 #множественное присваивание
@@ -110,3 +110,11 @@ e1 = 2**2 #в степень 2
 e2 = 12**2
 e3 = 9**0.5 # так ПОДНЕСТИ К КОРНЮ
 print (e1, e2, e3)
+
+
+
+x1,x2,x3,x4 = 1,4,16,21
+print (x1,x2,x3,x4)
+
+x1,x2,x3,x4 = 2,5,17,22
+print (x1,x2,x3,x4)

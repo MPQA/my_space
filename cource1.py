@@ -34,6 +34,4 @@ print (b1, b2)
 #     else
 #     break
 
-
-
-while a < p2
+# while a < p2

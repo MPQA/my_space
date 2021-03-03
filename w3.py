@@ -27,7 +27,7 @@ if "free" in txt:
 print (line)
 
 a = 200
-b = 33
+b = 303
 
 if b > a:
   print("b is greater than a")
