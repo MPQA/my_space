@@ -118,3 +118,5 @@ print (x1,x2,x3,x4)
 
 x1,x2,x3,x4 = 2,5,17,22
 print (x1,x2,x3,x4)
+
+print (line)
